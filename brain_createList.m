@@ -12,5 +12,4 @@ import edu.stanford.math.plex4.*;
 col = col(sortIdx);
 row = row(sortIdx);
 
-
 end
