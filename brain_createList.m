@@ -12,39 +12,5 @@ import edu.stanford.math.plex4.*;
 col = col(sortIdx);
 row = row(sortIdx);
 
-% import mlreportgen.dom.*
-% 
-% %create second level list
-% for i = 2:length
-%     for j = 1:i - 1
-%         valueij = ListItem(matrix(i,j));
-%         ijLevelList = UnorderedList(valueij);
-%     end
-% end
-% 
-% % secondLevelList = OrderedList();
-% % for i = 2:length
-% %     for j = 1:i - 1
-% %        append(secondLevelList,valueij);
-% %     end
-% % end
-% 
-% %create first level list
-% for i = 2:length
-%     for j = 1:i - 1
-%         itemij = ListItem(i,j);
-%     end
-% end
-% firstLevelList = OrderedList();
-% for i = 2:length
-%     for j = 1:i - 1
-%        append(firstLevelList,itemij);
-%        append(firstLevelList, ijLevelList);
-%     end
-% end
-% 
-% output = firstLevelList;
-
-
 
 end
